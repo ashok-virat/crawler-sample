@@ -4,16 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <title>Advanced Mock Page for Web Crawler and Scraper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+
+        footer {
+            background-color: #333333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="https://example.com/home">Home</a></li>
-                <li><a href="https://example.com/about">About Us</a></li>
-                <li><a href="https://example.com/services">Services</a></li>
-                <li><a href="https://example.com/contact">Contact</a></li>
+                <li><a href="./webcrawler.html">Home</a></li>
+                <li><a href="./aboutUs.html">About Us</a></li>
+                <li><a href="./aboutUs.html">Services</a></li>
+                <li><a href="./aboutUs.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -22,48 +108,46 @@
             <h1>Web crawler</h1>
             <p>Published on <time datetime="2024-02-29">February 29, 2024</time></p>
             <section>
-                <h2>Sowdesh subramanian</h2>
-                <p>This is a section with some text and a <a href="https://example.com/more">link</a>.</p>
-                <img src="https://example.com/image.jpg" alt="Example Image">
+                <p>hey click this one<a style="padding-left: 10px;" href="./testingData.html">Software Testing</a>.</p>
+                <img src="./testimage.jpeg" alt="Example Image">
             </section>
             <aside>
                 <h3>Related Articles</h3>
                 <ul>
-                    <li><a href="https://www.amazon.in/"> Related Amazon 1</a></li>
-                    <li><a href="https://www.w3schools.com/">Related W3schools 2</a></li>
+                    <li><a href="https://www.amazon.in/" target="_blank"> Related Amazon 1</a></li>
+                    <li><a href="https://www.w3schools.com/" target="_blank">Related W3schools 2</a></li>
+                    <li> <a href="./dummy.pdf" target="_blank">19827827372_ak.pdf</a></li>
+                    <li> <a href="./pdf1.pdf" target="_blank">1542836578152_qwerty.pdf</a></li>
                 </ul>
             </aside>
         </article>
-        <form action="https://example.com/subscribe" method="post">
+        <form action="./aboutUs.html" method="post">
             <label for="email">Subscribe to our newsletter:</label>
             <input type="email" id="email" name="email" required>
             <button type="submit">Subscribe</button>
         </form>
     </main>
+    <!-- Add new content below -->
+    <p style="padding-left: 10px;">Preparing test data for a web crawler and scraper involves creating a dataset that
+        mimics the structure and
+        content of the data you expect to collect from the web. Here's a step-by-step guide on how to do it: Identify
+        Target Websites: Determine which websites or types of web pages you want to crawl and scrape. This will help you
+        understand the structure and types of data available. Analyze the Structure: Look at the HTML and JavaScript
+        structure of the target web pages to identify the patterns and tags that contain the data you want to extract.
+        Create Mock HTML Pages: Based on your analysis, create mock HTML pages that replicate the structure of the
+        target web pages. Include various elements like headings, paragraphs, lists, tables, and links. Incorporate Edge
+        Cases: Ensure your mock pages include edge cases, such as missing data, unexpected HTML tags, or dynamic content
+        loaded with JavaScript. Generate Data: Populate the mock pages with realistic data. You can use tools or
+        libraries to generate fake data that resembles real-world information. Test Your Crawler/Scraper: Use your web
+        crawler and scraper on the mock pages to ensure it can handle different scenarios and extract the data
+        accurately. Validate and Iterate: Check the extracted data against the expected results. If there are
+        discrepancies, adjust your crawler/scraper and test again. Performance Testing: Test the crawler/scraper against
+        a large number of mock pages to evaluate its performance and robustness. Compliance Check: Make sure your test
+        data and crawling/scraping activities comply with legal requirements, such as the website's robots.txt file and
+        terms of service.</p>
     <footer>
-        <p>&copy; 2024 Mock Website</p>
+        <p style="color:white">&copy; 2024 Sowdesh subramanian</p>
     </footer>
 </body>
 
 </html>
-<!-- Existing content -->
-<h1>Welcome to My Website</h1>
-<p>This is an existing paragraph.</p>
-
-<!-- Add new content below -->
-<p>Preparing test data for a web crawler and scraper involves creating a dataset that mimics the structure and content
-    of the data you expect to collect from the web. Here's a step-by-step guide on how to do it: Identify Target
-    Websites: Determine which websites or types of web pages you want to crawl and scrape. This will help you understand
-    the structure and types of data available. Analyze the Structure: Look at the HTML and JavaScript structure of the
-    target web pages to identify the patterns and tags that contain the data you want to extract. Create Mock HTML
-    Pages: Based on your analysis, create mock HTML pages that replicate the structure of the target web pages. Include
-    various elements like headings, paragraphs, lists, tables, and links. Incorporate Edge Cases: Ensure your mock pages
-    include edge cases, such as missing data, unexpected HTML tags, or dynamic content loaded with JavaScript. Generate
-    Data: Populate the mock pages with realistic data. You can use tools or libraries to generate fake data that
-    resembles real-world information. Test Your Crawler/Scraper: Use your web crawler and scraper on the mock pages to
-    ensure it can handle different scenarios and extract the data accurately. Validate and Iterate: Check the extracted
-    data against the expected results. If there are discrepancies, adjust your crawler/scraper and test again.
-    Performance Testing: Test the crawler/scraper against a large number of mock pages to evaluate its performance and
-    robustness. Compliance Check: Make sure your test data and crawling/scraping activities comply with legal
-    requirements, such as the website's robots.txt file and terms of service.</p>
-<a href="./dummy.pdf" target="_blank">Open PDF</a>
