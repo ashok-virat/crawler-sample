@@ -51,19 +51,41 @@
             bottom: 0;
             width: 100%;
         }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .award {
+            margin: 10px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .award:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 
 <body>
     <header>
         <h1>Award Gallery - Intellect Design Arena</h1>
+        <button><a href="./webcrawler.html">Home</a></button>
     </header>
     <div class="container">
-
         <div class="award">
-            <a href="./individuals.html">Individual</a>
+            <a style="text-decoration: auto;" href="./individuals.html">Individual</a>
         </div>
-        <div class="award"> <a href="./group.html">Group</a>
+        <div class="award">
+            <a style="text-decoration: auto;" href="./group.html">Group</a>
         </div>
     </div>
     <footer>

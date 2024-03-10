@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: white;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        ul,
+        ol {
+            margin-left: 20px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .award {
+            margin: 10px;
+            border: 2px solid;
+            border-radius: 10px;
+            padding: 20px;
+            background: black;
+        }
+
+        .award img {
+            max-width: 650px;
+            height: auto;
+            border: 2px solid #333;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .award {
+                margin: 10px 0;
+            }
+
+            .award img {
+                max-width: 100%
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Performance Settings</h1>
+        <button><a href="./services.html">service</a></button>
+    </header>
+    <div style="display: flex; justify-content: center;">
+        <main>
+            <section>
+                <h2>Overview</h2>
+                <p>Performance settings are configurations and optimizations applied to software systems to improve
+                    their
+                    efficiency, speed, and resource utilization. These settings are essential for ensuring optimal
+                    performance and responsiveness of the application.</p>
+            </section>
+            <section>
+                <h2>Types of Performance Settings:</h2>
+                <ul>
+                    <li><strong>Caching:</strong> Implementing caching mechanisms to store frequently accessed data in
+                        memory or disk to reduce the need for repeated computation or data retrieval.</li>
+                    <li><strong>Compression:</strong> Enabling compression techniques such as gzip or deflate to reduce
+                        the
+                        size of data transferred over the network, improving load times and bandwidth usage.</li>
+                    <li><strong>Minification:</strong> Minifying code and resources by removing unnecessary characters,
+                        whitespace, and comments to reduce file size and improve loading speed.</li>
+                    <li><strong>Optimized Database Queries:</strong> Writing optimized and efficient database queries to
+                        minimize query execution time and reduce database load.</li>
+                    <li><strong>Resource Bundling:</strong> Bundling multiple resources such as CSS and JavaScript files
+                        into a single file to reduce the number of HTTP requests and improve page load times.</li>
+                    <li><strong>Content Delivery Network (CDN):</strong> Utilizing CDN services to distribute content
+                        across
+                        multiple servers located geographically closer to users, reducing latency and improving content
+                        delivery speed.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Best Practices for Performance Settings:</h2>
+                <ol>
+                    <li><strong>Monitor Performance:</strong> Regularly monitor application performance metrics and
+                        identify
+                        areas for improvement.</li>
+                    <li><strong>Implement Caching:</strong> Use caching for static and dynamic content to reduce server
+                        load
+                        and improve response times.</li>
+                    <li><strong>Optimize Images:</strong> Optimize image sizes and formats to reduce page load times
+                        without
+                        compromising quality.</li>
+                    <li><strong>Enable Browser Caching:</strong> Set appropriate cache-control headers to enable browser
+                        caching and reduce the need for repeated resource requests.</li>
+                    <li><strong>Compress Resources:</strong> Enable compression for text-based resources such as HTML,
+                        CSS,
+                        and JavaScript to reduce file size and improve loading speed.</li>
+                    <li><strong>Utilize Lazy Loading:</strong> Implement lazy loading for images and other resources to
+                        defer loading until they are needed, reducing initial page load times.</li>
+                    <li><strong>Database Optimization:</strong> Optimize database schema, indexing, and query
+                        performance to
+                        minimize response times and improve overall application performance.</li>
+                    <li><strong>Content Delivery Network (CDN):</strong> Utilize a CDN to distribute content globally
+                        and
+                        reduce latency for users accessing your application from different locations.</li>
+                </ol>
+            </section>
+        </main>
+        <div style="margin-top: 0px;">
+            <div class="container">
+                <div class="award">
+                    <img src="./Services/Performance/Performance_graphs.webp" alt="Award 3">
+                </div>
+                <div class="award">
+                    <img src="./Services/Performance/performance_infographic.jpeg" alt="Award 1">
+                </div>
+                <div class="award">
+                    <img src="./Services/Performance/pie_chart.png" alt="Award 1">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

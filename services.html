@@ -28,6 +28,60 @@
             margin: auto;
             padding: 20px;
         }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+            opacity: 1;
+            transform: translateY(20px);
+            transition: opacity 0.5s, transform 0.5s;
+        }
+
+        li:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .block a {
+            display: block;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            transition: background-color 0.3s;
+            border-radius: 10px;
+            background: black #333333;
+            color: black;
+            font-style: italic;
+            font-family: cursive;
+        }
+
+        .block a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .container:hover li {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        footer {
+            background-color: #333333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 
@@ -37,10 +91,27 @@
         <button><a href="./webcrawler.html">Home</a></button>
     </header>
     <div class="container">
-        <p>Custom Crawling: Allow users to request custom crawls of specific websites or data types.</p>
-        <p>Access: Provide an API for developers to access crawled data programmatically.</p> 
-        <p>Extraction: Offer services to extract specific data points from web pages, like prices, product details, or contact information.</p>
+        <ul>
+            <li class="block">
+                <a href="./functional.html">Functional</a>
+            </li>
+            <li class="block">
+                <a href="./performance.html">Performance</a>
+            </li>
+            <li class="block">
+                <a href="./automation.html">Automation</a>
+            </li>
+            <li class="block">
+                <a href="./security.html">Security</a>
+            </li>
+            <li class="block">
+                <a href="./database.html">Database</a>
+            </li>
+        </ul>
     </div>
+    <footer>
+        <p style="color:white">&copy; 2024 Platform QA Team</p>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Testing Overview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: white;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        ul,
+        ol {
+            margin-left: 20px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .award {
+            margin: 10px;
+            border: 2px solid;
+            border-radius: 10px;
+            padding: 20px;
+            background: black;
+        }
+
+        .award img {
+            max-width: 650px;
+            height: auto;
+            border: 2px solid #333;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .award {
+                margin: 10px 0;
+            }
+
+            .award img {
+                max-width: 100%
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Database Testing Overview</h1>
+        <button><a href="./services.html">service</a></button>
+    </header>
+    <div style="display: flex; justify-content: center;">
+        <main>
+            <section>
+                <h2>What is Database Testing?</h2>
+                <p>Database testing is a type of software testing that focuses on verifying the integrity, accuracy, and
+                    performance of database systems and their interactions with the application. It involves evaluating
+                    various aspects of the database, including data validity, consistency, security, and reliability.
+                </p>
+            </section>
+            <section>
+                <h2>Types of Database Testing:</h2>
+                <ul>
+                    <li><strong>Data Integrity Testing:</strong> Verifying the accuracy and consistency of data stored
+                        in
+                        the database by performing data validation, integrity checks, and referential integrity tests.
+                    </li>
+                    <li><strong>Schema Testing:</strong> Validating the database schema, including tables, columns,
+                        indexes,
+                        constraints, and relationships, to ensure that it meets the application's requirements and
+                        specifications.</li>
+                    <li><strong>Performance Testing:</strong> Assessing the performance and scalability of the database
+                        system by measuring response times, throughput, concurrency, and resource utilization under
+                        various
+                        load conditions.</li>
+                    <li><strong>Security Testing:</strong> Evaluating the security controls, access permissions,
+                        encryption,
+                        and authentication mechanisms of the database to identify vulnerabilities, unauthorized access,
+                        and
+                        data breaches.</li>
+                    <li><strong>Backup and Recovery Testing:</strong> Testing the backup and recovery processes of the
+                        database to ensure data availability, reliability, and integrity in the event of system
+                        failures,
+                        disasters, or data loss.</li>
+                    <li><strong>Concurrency Testing:</strong> Assessing the database's ability to handle multiple
+                        concurrent
+                        transactions, locks, and conflicts without compromising data integrity or performance.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Best Practices for Database Testing:</h2>
+                <ul>
+                    <li><strong>Test Data Management:</strong> Use realistic and representative test data sets to
+                        simulate
+                        real-world scenarios and ensure comprehensive test coverage.</li>
+                    <li><strong>Isolation:</strong> Isolate the testing environment from production systems to prevent
+                        accidental data corruption or loss during testing.</li>
+                    <li><strong>Automation:</strong> Automate repetitive database testing tasks, such as data
+                        validation,
+                        integrity checks, and regression tests, to improve efficiency and reliability.</li>
+                    <li><strong>Comprehensive Coverage:</strong> Test various aspects of the database, including data
+                        types,
+                        constraints, indexes, triggers, stored procedures, and SQL queries.</li>
+                    <li><strong>Security Measures:</strong> Implement security testing techniques, such as vulnerability
+                        scanning, penetration testing, and access control testing, to identify and mitigate security
+                        risks.
+                    </li>
+                    <li><strong>Performance Optimization:</strong> Identify and address performance bottlenecks,
+                        optimization opportunities, and scalability issues through performance testing and tuning.</li>
+                    <li><strong>Documentation:</strong> Document test cases, test results, issues, and recommendations
+                        for
+                        future reference, audit trails, and compliance purposes.</li>
+                </ul>
+            </section>
+        </main>
+        <div>
+            <div class="container">
+                <div class="award">
+                    <img src="./Services/DB/Database.png" alt="Award 3">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

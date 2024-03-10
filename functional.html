@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Testing Overview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        main {
+            max-width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: white;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        ul,
+        ol {
+            margin-left: 20px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .award {
+            margin: 10px;
+            border: 2px solid;
+            border-radius: 10px;
+            padding: 20px;
+            background: black;
+        }
+
+        .award img {
+            max-width: 650px;
+            height: auto;
+            border: 2px solid #333;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .award {
+                margin: 10px 0;
+            }
+
+            .award img {
+                max-width: 100%
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Functional Testing Overview</h1>
+        <button><a href="./services.html">service</a></button>
+    </header>
+    <div style="display: flex; justify-content: center;">
+        <main>
+            <section>
+                <h2>Types of Functional Testing:</h2>
+                <ul>
+                    <li>Unit Testing: Testing individual units or components of the software in isolation to ensure that
+                        they perform as expected.</li>
+                    <li>Integration Testing: Testing the integration and interaction between different modules or
+                        components
+                        of the software to ensure that they work together seamlessly.</li>
+                    <li>System Testing: Testing the entire system as a whole to verify that all components function
+                        together
+                        as expected and meet the requirements.</li>
+                    <li>Acceptance Testing: Testing the software from the end user's perspective to ensure that it meets
+                        their requirements and expectations.</li>
+                    <li>Regression Testing: Testing the software after changes or updates to ensure that existing
+                        functionality has not been affected.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>End-to-End Testing</h2>
+                <p>End-to-end testing is a type of functional testing that involves testing the entire software
+                    application
+                    from start to finish to simulate real-world user scenarios. It ensures that all components of the
+                    software work together correctly and meet the intended business requirements.</p>
+                <h3>Steps for End-to-End Testing:</h3>
+                <ol>
+                    <li>Identify Scenarios</li>
+                    <li>Test Environment Setup</li>
+                    <li>Test Data Preparation</li>
+                    <li>Execute Test Scenarios</li>
+                    <li>Verify Results</li>
+                    <li>Bug Reporting</li>
+                    <li>Documentation</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Unit Testing</h2>
+                <p>Unit testing is a type of functional testing where individual units or components of the software are
+                    tested in isolation to ensure that they perform as expected. It helps identify defects early in the
+                    development process and ensures that each unit functions correctly on its own before integration
+                    testing.</p>
+                <h3>Steps for Unit Testing:</h3>
+                <ol>
+                    <li>Identify Units</li>
+                    <li>Write Test Cases</li>
+                    <li>Execute Tests</li>
+                    <li>Test Coverage</li>
+                    <li>Debugging</li>
+                    <li>Automated Testing</li>
+                    <li>Integration Testing</li>
+                </ol>
+            </section>
+        </main>
+        <div>
+            <div class="container">
+                <div class="award">
+                    <img src="./Services/Functional/Chart.png" alt="Award 3">
+                </div>
+                <div class="award">
+                    <img src="./Services/Functional/Functional.png" alt="Award 1">
+                </div>
+                <div class="award">
+                    <img src="./Services/Functional/Pia_chart.png" alt="Award 1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
